@@ -1,0 +1,26 @@
+{
+  "name": "graphql-demo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.3",
+    "lodash": "^4.17.4",
+    "mongoose": "4.10.8",
+    "rxjs": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
